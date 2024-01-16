@@ -298,7 +298,7 @@ public:
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 		glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 		glTextureSubImage2D(bodyChanceTexture, 0, 0, 0, numX, numZ, GL_RED, GL_FLOAT, &bodyChange[0]);
-
+		return true;
 	}
 
 
